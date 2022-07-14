@@ -1,9 +1,6 @@
 var express = require('express');
 app = express();
 
-res.send("hellow word!\n");
-});
-
 app.get('/', function (req, res) {
   res.send('Hello World!\n');
 });
